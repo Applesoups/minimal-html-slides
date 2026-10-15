@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minimal HTML Slides"
+  short_description: "Create minimal English HTML slides with smooth motion."
+  default_prompt: "Use $minimal-html-slides to create concise English HTML slides with diagrams and staged animations."

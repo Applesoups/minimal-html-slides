@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Local report reference; not part of the portable template.
+references/source-style.png

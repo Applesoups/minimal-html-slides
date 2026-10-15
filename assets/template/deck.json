@@ -1,0 +1,256 @@
+{
+  "title": "Minimal HTML Slides — reusable template",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "[Project name]",
+      "subtitle": "Internal progress update",
+      "author": "[Name]",
+      "date": "[Date]"
+    },
+    {
+      "type": "question",
+      "title": "Can we make **the next step** simpler?"
+    },
+    {
+      "type": "bullets",
+      "title": "The agent should",
+      "reveal": "click",
+      "items": [
+        "Define **capabilities**",
+        "Design **experiments**",
+        "Validate through **closed-loop tests**",
+        "Measure **time and cost**"
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "Key observations",
+      "reveal": "click",
+      "cards": [
+        {
+          "title": "Development time",
+          "value": "[hours]",
+          "caption": "First push → cutoff",
+          "click": 0
+        },
+        {
+          "title": "Parallel workers",
+          "value": "[count]",
+          "caption": "Active workers",
+          "click": 2
+        },
+        {
+          "title": "Task latency",
+          "value": "[seconds]",
+          "caption": "Planner · compute · execution",
+          "click": 1
+        },
+        {
+          "title": "Resource usage",
+          "value": "[quota]",
+          "caption": "Measured or user-reported",
+          "click": 3
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Inspiration",
+      "cards": [
+        {
+          "title": "Work A",
+          "media": {
+            "kind": "image",
+            "src": "media/illustration.svg",
+            "alt": "Illustrative example diagram"
+          }
+        },
+        {
+          "title": "Work B",
+          "media": {
+            "kind": "video",
+            "src": "media/demo.mp4",
+            "id": "demo-clip",
+            "alt": "Synthetic example clip; not an experimental result"
+          }
+        }
+      ]
+    },
+    {
+      "type": "media-focus",
+      "title": "Progress",
+      "motion_key": "progress",
+      "media": {
+        "kind": "video",
+        "src": "media/demo.mp4",
+        "id": "demo-clip",
+        "alt": "Synthetic example clip; not an experimental result"
+      }
+    },
+    {
+      "type": "media-focus",
+      "title": "Progress",
+      "motion_key": "progress",
+      "compact": true,
+      "media": {
+        "kind": "video",
+        "src": "media/demo.mp4",
+        "id": "demo-clip",
+        "alt": "Synthetic example clip; not an experimental result"
+      },
+      "annotation": "**Manual setup** still required"
+    },
+    {
+      "type": "pipeline",
+      "title": "Pipeline",
+      "stages": [
+        {
+          "title": "Input",
+          "items": [
+            "Task A",
+            "Task B",
+            "…"
+          ],
+          "color": "#eaf0f5"
+        },
+        {
+          "title": "Explore",
+          "items": [
+            "Assets",
+            "Tools",
+            "Planner"
+          ],
+          "color": "#e5f0e9"
+        },
+        {
+          "title": "Validate",
+          "items": [
+            "Unit tests",
+            "Task tests",
+            "…"
+          ],
+          "color": "#faf0df"
+        },
+        {
+          "title": "Execute",
+          "items": [
+            "Action",
+            "Feedback",
+            "…"
+          ],
+          "color": "#eee8f7"
+        }
+      ]
+    },
+    {
+      "type": "overview",
+      "title": "System overview",
+      "focus_key": "tools",
+      "cards": [
+        {
+          "key": "planner",
+          "title": "Planner",
+          "color": "#eee8f7"
+        },
+        {
+          "key": "tools",
+          "title": [
+            "Tool",
+            "library"
+          ],
+          "color": "#e5f0e9"
+        },
+        {
+          "key": "execution",
+          "title": "Execution",
+          "color": "#faf0df"
+        }
+      ]
+    },
+    {
+      "type": "detail",
+      "title": "System overview",
+      "focus_key": "tools",
+      "panel_title": "Tool library",
+      "cards": [
+        {
+          "title": "Interfaces",
+          "color": "#dce7ef",
+          "items": [
+            "Discover",
+            "Query",
+            "Manage"
+          ]
+        },
+        {
+          "title": "Functions",
+          "color": "#edf0e3",
+          "items": [
+            "Perception",
+            "Geometry",
+            "Planning"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "overview",
+      "title": "System overview",
+      "focus_key": "tools",
+      "cards": [
+        {
+          "key": "planner",
+          "title": "Planner",
+          "color": "#eee8f7"
+        },
+        {
+          "key": "tools",
+          "title": [
+            "Tool",
+            "library"
+          ],
+          "color": "#e5f0e9"
+        },
+        {
+          "key": "execution",
+          "title": "Execution",
+          "color": "#faf0df"
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "title": "Task tests",
+      "media": {
+        "kind": "video",
+        "src": "media/demo.mp4",
+        "id": "demo-clip",
+        "alt": "Synthetic example clip; not an experimental result"
+      },
+      "shrink_note": "It works!",
+      "notes": "This is a synthetic sample demonstrating layout and animation only."
+    },
+    {
+      "type": "code",
+      "title": "A lengthy prompt",
+      "filename": "prompt.txt",
+      "text_file": "prompt.txt",
+      "scroll_ms": 8500
+    },
+    {
+      "type": "bullets",
+      "title": "More structured development",
+      "items": [
+        "Clearer **design standards**",
+        "A well-defined **workflow**",
+        "More efficient **coordination**"
+      ]
+    },
+    {
+      "type": "closing",
+      "title": "[Project name]",
+      "invite": "Join me!"
+    }
+  ]
+}
